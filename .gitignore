@@ -1,0 +1,65 @@
+# ============================================================
+# Firmware / embedded projects (Pico SDK, BeagleBone, ROS 2)
+# ============================================================
+
+# ---------- Build output (always regenerated) ----------
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+
+# CMake leftovers if someone configures in-source
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+_deps/
+Makefile.cmake
+
+# ---------- Compiled objects / binaries ----------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.d
+*.ko
+*.dtbo
+*.elf
+*.axf
+*.bin
+*.hex
+*.uf2
+*.map
+*.dis
+*.lst
+*.out
+
+# ---------- Third-party SDKs / cloned repos ----------
+# Fetch these instead of committing them (or add as git submodules).
+pico-sdk/
+
+# ---------- Editors / IDEs ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+.clangd/
+
+# ---------- OS junk ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Office lock files ----------
+~$*
